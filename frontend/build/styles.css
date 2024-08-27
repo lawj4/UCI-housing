@@ -1,0 +1,10 @@
+a {
+    color: #255799;
+}
+a:visited {
+    color: #fecc07; /* Color for visited links (purple) */
+}
+.searchBar {
+    width: 100%;
+    margin-bottom: 10px;
+}
