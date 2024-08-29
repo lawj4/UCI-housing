@@ -3,34 +3,17 @@
 const mongoose = require('mongoose');
 
 const todoSchema = new mongoose.Schema({
-    
-    gender: {
+    task: {
         type: String,
         required: true,
     },
-    occupancy: {
+    status: {
         type: String,
         required: true,
-    },
-    distance: {
-        type: Number,
-        required: true,
-    },
-    rent: {
-        type: Number,
-        required: true,
-    },
-    start: {
-        type: Date,
     },
     deadline: {
         type: Date,
     },
-    image: {
-        type: String,
-        required: true,
-    },
-
 });
 
 

@@ -1,4 +1,5 @@
 //App.js
+
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,7 +12,7 @@ function App() {
   }
   return (
     <div>
-      <h1 style={headStyle}>UCI Housing</h1>
+      <h1 style={headStyle}>Todo List</h1>
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Todo/>}></Route>
